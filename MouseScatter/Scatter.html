@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Load D3 from site -->
+    <script src="d3.v3.min.js" charset="utf-8"></script>
+  </head>
+ 
+    <!-- CSS (Styling) -->
+    <style type="text/css">
+            /* Format X and Y Axis */
+            .axis path,
+            .axis line {
+              /* fill: none; */
+                stroke: black;
+                shape-rendering: crispEdges;
+            }
+
+            .axis text {
+                font-family: sans-serif;
+                font-size: 11px;
+            }
+     .chart {
+       padding
+    </style>
+    <!-- End CSS (Styling) -->
+ 
+  <body>
+    <h2>Dynamic mouse data </h2>
+    <button onclick="play();">Play</button><br>
+    <button onclick="stop();">Stop</button><br>  
+    Slow by (1 = real time) <input id="speed" value="20"/><br>
+    <div>
+      <h3 id="chart">
+      </h3>
+    </div>
+
+  
+  <!-- Begin D3 Javascript -->
+    <script src="./mousedata2.js"></script>
+    <script src="./scatter.js"></script>
+
+  </body>
+</html>
