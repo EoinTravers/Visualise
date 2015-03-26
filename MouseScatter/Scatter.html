@@ -2,6 +2,7 @@
 <html>
   <head>
     <!-- Load D3 from site -->
+    <!-- <script src="d3.v3.min.js" charset="utf-8"></script> -->
     <script src="d3.v3.min.js" charset="utf-8"></script>
   </head>
  
@@ -26,17 +27,17 @@
  
   <body>
     <h2>Dynamic mouse data </h2>
-    <button onclick="play();">Play</button><br>
+    <button onclick="play();">Play</button><br> 
     <button onclick="stop();">Stop</button><br>  
-    Slow by (1 = real time) <input id="speed" value="20"/><br>
+    Slow by (1 = real time) <input id="speed" value="40"/><br>
     <div>
       <h3 id="chart">
       </h3>
+      <p>Drag mouse cursor along x axis to go forwards and backwards in time.</p>
     </div>
 
   
   <!-- Begin D3 Javascript -->
-    <script src="./mousedata2.js"></script>
     <script src="./scatter.js"></script>
 
   </body>
