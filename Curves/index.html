@@ -39,6 +39,24 @@
 
 </style>
 <body>
+
+  <p>
+  From <a href="www.github.com/EoinTravers/Visualise">
+  github.com/EoinTravers/Visualise</a>.<br>
+  For best results, <a href="http://bl.ocks.org/EoinTravers/raw/176ee8930b48f9c9eea1/">
+  view in a seperate window.</a>.<br>
+  Browse source code at <a href="http://bl.ocks.org/eointravers/176ee8930b48f9c9eea1">bl.ocks.org</a>.
+</p>
+<p>
+  Explore polynomial regression models ("growth curves") by parsing
+  the coefficients from R output, and plotting the curves using
+  d3.js. The influence of a specific coefficent can be seen by forcing
+  it to not vary, showing how the curves would look if both conditions
+  were the same on that term. Currently doesn't handly orthogonal
+  polynomials well, but this should change.
+</p>
+
+  
   <div class="two-column">
     <div id="chart"></div>
     <div id="controls">
@@ -92,8 +110,8 @@ variableother:rot3  3.640231   1.578319   2.306  0.02109 *</textarea>
           </tbody>
 
         </table>
-        <button onclick="addCoefRow()"">Add term</button>
-        <button onclick="removeCoefRow()"">Remove term</button>
+        <!-- <button onclick="addCoefRow()"">Add term</button>
+        <button onclick="removeCoefRow()"">Remove term</button> -->
       </div>
 
       <p>
@@ -111,3 +129,5 @@ variableother:rot3  3.640231   1.578319   2.306  0.02109 *</textarea>
 
 </script>
 </body>
+
+
