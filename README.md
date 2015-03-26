@@ -17,8 +17,12 @@ conditions were the same on that term.
 Currently doesn't handly orthogonal polynomials well,
 but this should change.
 
+[Demo](http://eointravers.github.io/curves/)
+
 ### Mouse Scatter
 
 Interactive visualisation of raw data from mouse-tracking experiments.
 Like a scatterplot, with play/pause buttons, and a slider to explore
 at your own pace. (**NEED TO UPLOAD EXAMPLE DATA FOR THIS**).
+
+[Demo](http://eointravers.github.io/scatter/)
