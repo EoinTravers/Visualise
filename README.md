@@ -23,6 +23,8 @@ but this should change.
 
 Interactive visualisation of raw data from mouse-tracking experiments.
 Like a scatterplot, with play/pause buttons, and a slider to explore
-at your own pace. (**NEED TO UPLOAD EXAMPLE DATA FOR THIS**).
+at your own pace.
 
 [Demo](http://eointravers.github.io/visualise/scatter.html)
+
+Future versions will allow you to explore your own data online using this tool.
